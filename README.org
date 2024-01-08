@@ -1,3 +1,5 @@
 #+title: README
 
 This is a sudoku-solving program written as a literate programming document, using [[https://orgmode.org/][Org Mode]] and [[https://orgmode.org/worg/org-contrib/babel/intro.html][Org Babel]]. The C code in ~sudoku.c~ is entirely generated from ~sudoku.org~ through the Emacs command ~org-babel-tangle~.
+
+While the Org file can be read comfortably in GitHub's default viewer, it was designed to be converted into a LaTeX document by the command ~org-latex-export-as-latex~, and therefore includes some Org features not supported by GitHub, as well as some raw LaTeX commands.
