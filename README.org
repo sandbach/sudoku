@@ -1,0 +1,3 @@
+#+title: README
+
+This is a sudoku-solving program written as a literate programming document, using [[https://orgmode.org/][Org Mode]] and [[https://orgmode.org/worg/org-contrib/babel/intro.html][Org Babel]]. The C code in ~sudoku.c~ is entirely generated from ~sudoku.org~ through the Emacs command ~org-babel-tangle~.
